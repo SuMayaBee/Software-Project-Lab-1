@@ -54,3 +54,13 @@ for (int i = 1; i < prediction->rows; i++)
 }
 
 printf("The predicted label is: %d\n", predicted_label);
+
+This code does the following:
+
+Prints the pixel values of the image.
+Converts the image to a matrix format that can be fed into the neural network.
+Creates an Img structure and assigns the matrix to its img_data field.
+Calls the network_predict_img function to get the prediction matrix from the neural network.
+Finds the index of the maximum value in the prediction matrix, which corresponds to the most likely digit.
+Prints the predicted label.
+``` 
