@@ -52,15 +52,16 @@ for (int i = 1; i < prediction->rows; i++)
         predicted_label = i;
     }
 }
+```
 
 printf("The predicted label is: %d\n", predicted_label);
 
-This code does the following:
+## Project Structure
 
-Prints the pixel values of the image.
-Converts the image to a matrix format that can be fed into the neural network.
-Creates an Img structure and assigns the matrix to its img_data field.
-Calls the network_predict_img function to get the prediction matrix from the neural network.
-Finds the index of the maximum value in the prediction matrix, which corresponds to the most likely digit.
-Prints the predicted label.
-``` 
+The project is implemented in C++ and uses a custom matrix library for operations. The code is organized into separate modules for different functionalities:
+
+- **Image Processing:** The `util/img.c` file contains functions for loading and preprocessing images.
+
+- **Matrix Operations:** The `matrix/matrix.c` and `matrix/ops.c` files contain functions for creating and manipulating matrices, which are used throughout the project.
+
+- **Neural Network:** The `neural/nn.c` and `neural/activations.c` files contain the implementation of the neural network, including the feedforward and backpropagation algorithms, as well as various activation functions.
