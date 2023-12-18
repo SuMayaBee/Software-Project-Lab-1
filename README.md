@@ -68,6 +68,6 @@ The project is implemented in C++ and uses a custom matrix library for operation
 
   
 
-https://github.com/Sumaiya-369/Software-Project-Lab-1/assets/126413802/e1c8f992-73cb-48bc-8859-4d7a55cb5e6c
+
 
 
