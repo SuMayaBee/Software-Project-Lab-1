@@ -37,7 +37,7 @@ Matrix *input_data = image_to_matrix(image);
 
 Img *img = (Img*)malloc(sizeof(Img));
 img->img_data = input_data;
-img->label = -1; // or whatever default value you want to use
+img->label = -1; 
 
 Matrix* prediction = network_predict_img(net, img);
 
@@ -52,9 +52,9 @@ for (int i = 1; i < prediction->rows; i++)
         predicted_label = i;
     }
 }
-```
 
 printf("The predicted label is: %d\n", predicted_label);
+```
 
 ## Project Structure
 
