@@ -65,3 +65,9 @@ The project is implemented in C++ and uses a custom matrix library for operation
 - **Matrix Operations:** The `matrix/matrix.c` and `matrix/ops.c` files contain functions for creating and manipulating matrices, which are used throughout the project.
 
 - **Neural Network:** The `neural/nn.c` and `neural/activations.c` files contain the implementation of the neural network, including the feedforward and backpropagation algorithms, as well as various activation functions.
+
+  
+
+https://github.com/Sumaiya-369/Software-Project-Lab-1/assets/126413802/e1c8f992-73cb-48bc-8859-4d7a55cb5e6c
+
+
